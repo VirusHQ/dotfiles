@@ -4,6 +4,14 @@ My macOS terminal setup: **WezTerm** (Tokyo Night, minimal, fast) + **tmux** (Ct
 
 ## Install on a new Mac
 
+Paste this into Terminal — it installs Homebrew if needed, clones this repo to `~/dotfiles`, installs every package and links the configs:
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/VirusHQ/dotfiles/main/bootstrap.sh)"
+```
+
+Or manually:
+
 ```sh
 git clone https://github.com/VirusHQ/dotfiles.git ~/dotfiles
 ~/dotfiles/install.sh            # brew bundle + symlinks
